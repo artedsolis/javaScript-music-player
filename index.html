@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Music Player</title>
+</head>
+<body>
+    <img src="./assets/image/london_calling_cover.png" alt="london calling album" id="background">
+    <audio src="./assets/music/london_calling.mp3" id="song"></audio>
+
+    <div class="container">
+        <div class="box"></div>
+        <img src="./assets/image/london_calling_cover.png" alt="london_calling_thumbnail" id="thumbnail">
+        <img src="./assets/icons/play-solid.svg" alt="play icon" onclick="playPause()" id="play-pause">
+        <img src="./assets/icons/forward-solid.svg" alt="forward icon" onclick="nextSong()" id="next-song">
+        <img src="./assets/icons/backward-solid.svg" alt="backward icon" onclick="previousSong()" id="previous-song">
+
+
+        <div class="song-artist">The Clash</div>
+        <div class="song-title">London Calling</div>
+
+    <!-- Input element for progress bar - min=0 starting value of  
+    every song - max length will change per song so leave empty -->
+        <input 
+        type="range"
+        id="progress-bar"
+        min="0"
+        max=""
+        value="0"
+        onchange="changeProgressBar()">
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+
+    </div>
+
+    <script src="assets/player.js"></script>
+    
+</body>
+</html>

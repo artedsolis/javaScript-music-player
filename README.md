@@ -1,4 +1,6 @@
 # Just another JavaScript music player
+![app screenshot](https://github.com/artedsolis/javaScript-music-player/blob/main/assets/image/app-screenshot.png)
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)

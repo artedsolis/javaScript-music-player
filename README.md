@@ -15,6 +15,8 @@ I thought my favorite rock band deserves one!
 The main aim of this project was to build something using the
 very basics of HTML/ CSS/ and of course vanilla JS.
 One step further for mastering the DOM!
+This music player allows you to play the record and to switch to the next song.
+Enjoy it! ;) 
 
 ## Technologies
 Project is created with:
